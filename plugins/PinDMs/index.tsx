@@ -11,7 +11,7 @@ export default {
         storage.pinnedDMs ??= [
             { // Temporary default one so I can check it works so far
                 id: "default",
-                name: "Pinned DMs",
+                name: "friends / gcs",
                 ids: []
             }
         ] as PinnedDMsCategory[];
